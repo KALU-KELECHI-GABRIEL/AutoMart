@@ -560,6 +560,12 @@ font-size: 1rem;
 text-decoration: none;
 transition: all 0.2s ease-in;
 }
+button a{
+  text-decoration: none;
+  text-align: center;
+  color:  rgb(196, 238, 8);
+  font-size: 1.5rem;
+}
 
 .trons{
   height: auto;
@@ -589,9 +595,8 @@ transition: all 0.2s ease-in;
   font-size: 5em;
   color: rgb(243, 230, 225);
 }
-
 footer {
-  height:100px;
+  height:auto;
  width: 100% ;
 
  text-align: left;
@@ -606,7 +611,6 @@ footer ul {
  padding-left: 10px;
   display: inline-block;
 
-  margin-bottom: 70px;
   
 }
 footer ul li{
@@ -641,11 +645,13 @@ footer ul li a{
 
 
 #f1{
+height: 70px;
   width: 100%;
-  position: absolute;
   bottom: 0px;
     text-align: center;
     font-size: 14px;
+   
+    overflow: hidden;
     
     
     
@@ -666,7 +672,7 @@ footer ul li a{
   width: 100%;
     text-align: center;
     font-size: 14px;
-  margin-bottom: 30px;
+  height: 30px;
           
 }
 
