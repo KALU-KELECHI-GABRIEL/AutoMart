@@ -55,6 +55,7 @@ main{
     height: 100%;
     width: fit-content;
     padding-left: 20px;
+    font-size: 20px;
 }
 .large{
     font-size:28px ;
