@@ -1,9 +1,11 @@
+
 main{
     background: url('../img/car2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(39, 38, 38, 0.7);
     background-size: cover;
+
 }
 
 .form-group {
@@ -33,8 +35,10 @@ main{
 .form input[type='password'],
 .form input[type='number'],
 .form input[type='date'],
+.form input, .form input,
 .form select,
-.form textarea {
+.form textarea 
+{
 	display: block;
 	width: 100%;
 	padding: 0.5rem;
@@ -46,7 +50,7 @@ main{
 	
 	overflow: hidden;
 	
-
+	margin-bottom: 0px;
 	
 }
 
@@ -56,6 +60,14 @@ main{
     width: fit-content;
     padding-left: 20px;
     font-size: 20px;
+}
+.formtxt, input img{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
 }
 .large{
     font-size:28px ;
@@ -88,3 +100,11 @@ p.large.text-primary{
     margin: 0px;
     padding: 30px 0px;
 }
+.required {
+    color: rgba(255, 0, 0, 0.9);
+  }
+  label {
+    color: lavenderblush;
+    padding-left: 0px;
+    width: fit-content;
+  }
