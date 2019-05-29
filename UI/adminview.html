@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AutoMart | cars</title>
+    <title>AutoMart | Admins View</title>
     <!-- Font Awesome cdn-->
-   
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/css/solid.min.css">
+    <link rel="stylesheet" href="css/css/brands.min.css">
     
     <link rel="stylesheet" href="css/index.css">
        <link rel="stylesheet" href="css/cars.css">
@@ -21,9 +21,9 @@
                    
                             <nav id="head2">
                                 <ul>
-                                    <li><a href="index.html"> <span class="fa fa-home">Home</span> </a></li>
+                                    <li><a href="index.html"> <span class="fa fa-home">Home|main site</span> </a></li>
                                     <li><a href="signin.html"> <span class="fa fa-arrow-left">LogOut</span></a></li>
-                                    <li><a href="cars.html"> <span class="fa fa-cart-plus">Shop</span> </a></li>
+                                   
                                 </ul>
                             </nav>
                         
@@ -35,26 +35,7 @@
 
         <main>
             <div class="container">
-             <h2 style="margin-left:20px">Filter search by</h2>
-                <div class="search-filter">
-                    <form action="#" class="form">
-                        <div class="form-group">
-                                <select name="filter" label = "filter option">
-                                        <option value="">No filter</option>
-                                        <option value="year">year made</option>
-                                        <optgroup label="Price range" value="price">
-                                                <option value="-500k">below 500000</option>
-                                                <option value="+500k">500,000-1 million</option>
-                                                <option value="+1mil">Above 1 million</option>
-                                        </optgroup>
-                                        <option value="model">model</option>
-                                        <option value="manufacturer">manufacturer</option>
-                                        <option value="year">year made</option>
-                                        </select>
-                            
-                        </div>
-                    </form>
-                </div>
+             <h2 style="margin-left:20px">Administrator View</h2>
 
         <div class="trons tron1" id="ad1">
             <div class="image-box">
@@ -63,8 +44,10 @@
             <div>
                 <span> <h3 class="state">state </h3> <h2 class="manufacturer">Manufacturer </h2><h3 class="model">Model</h3> </span> 
                 <h3 class="price">Price</h3>
+                <h3 class="status">sold/Not sold</h3>
             </div>
             <button class="get-started"  id="view" style="margin-bottom:10px ">View</button>
+            <button class="get-started"  id="delete" style="margin-bottom:10px ">Delete Ad</button>
                 </div>
         <div class="trons tron1" id="ad2">
             <div class="image-box">
@@ -73,8 +56,10 @@
             <div>  
                 <span> <h3 class="state">state </h3> <h2 class="manufacturer">Manufacturer </h2><h3 class="model">Model</h3> </span> 
                 <h3 class="price">Price</h3>
+                <h3 class="status">sold/Not sold</h3>
             </div>
             <button class="get-started"  id="view" style="margin-bottom:10px ">View</button>
+            <button class="get-started"  id="delete" style="margin-bottom:10px ">Delete Ad</button>
                 </div>     
 
                 <div class="trons tron1" id="ad3">
@@ -84,8 +69,10 @@
                     <div>
                         <span> <h3 class="state">state </h3> <h2 class="manufacturer">Manufacturer </h2><h3 class="model">Model</h3> </span> 
                         <h3 class="price">Price</h3>
+                        <h3 class="status">sold/Not sold</h3>
                     </div>
                     <button class="get-started"  id="view" style="margin-bottom:10px ">View</button>
+                    <button class="get-started"  id="delete" style="margin-bottom:10px ">Delete Ad</button>
                         </div>
 
             <div class="trons tron1" id="ad4">
@@ -95,8 +82,10 @@
                     <div>
                         <span> <h3 class="state">state </h3> <h2 class="manufacturer">Manufacturer </h2><h3 class="model">Model</h3> </span> 
                         <h3 class="price">Price</h3>
+                        <h3 class="status">sold/Not sold</h3>
                     </div>
                     <button class="get-started"  id="view" style="margin-bottom:10px ">View</button>
+                    <button class="get-started"  id="delete" style="margin-bottom:10px ">Delete Ad</button>
                         </div>
                 <div class="trons tron1" id="ad5">
                     <div class="image-box">
@@ -105,8 +94,10 @@
                     <div>
                         <span> <h3 class="state">state </h3> <h2 class="manufacturer">Manufacturer </h2><h3 class="model">Model</h3> </span> 
                         <h3 class="price">Price</h3>
+                        <h3 class="status">sold/Not sold</h3>
                     </div>
                     <button class="get-started"  id="view" style="margin-bottom:10px ">View</button>
+                    <button class="get-started"  id="delete" style="margin-bottom:10px ">Delete Ad</button>
                         </div>     
                         <div class="trons tron1" id="ad6">
                             <div class="image-box">
@@ -115,8 +106,10 @@
                             <div>
                                 <span> <h3 class="state">state </h3> <h2 class="manufacturer">Manufacturer </h2><h3 class="model">Model</h3> </span> 
                                 <h3 class="price">Price</h3>
+                                <h3 class="status">sold/Not sold</h3>
                             </div>
                             <button class="get-started"  id="view" style="margin-bottom:10px ">View</button>
+                            <button class="get-started"  id="delete" style="margin-bottom:10px ">Delete Ad</button>
                                 </div>
                 <div class="trons tron1" id="ad7">
                         <div class="image-box">
@@ -125,8 +118,10 @@
                         <div>
                             <span> <h3 class="state">state </h3> <h2 class="manufacturer">Manufacturer </h2><h3 class="model">Model</h3> </span> 
                             <h3 class="price">Price</h3>
+                            <h3 class="status">sold/Not sold</h3>
                         </div>
                         <button class="get-started"  id="view" style="margin-bottom:10px ">View</button>
+                        <button class="get-started"  id="delete" style="margin-bottom:10px ">Delete Ad</button>
                             </div>
                     <div class="trons tron1" id="ad8">
                         <div class="image-box">
@@ -135,8 +130,10 @@
                         <div>
                             <span> <h3 class="state">state </h3> <h2 class="manufacturer">Manufacturer </h2><h3 class="model">Model</h3> </span> 
                             <h3 class="price">Price</h3>
+                            <h3 class="status">sold/Not sold</h3>
                         </div>
                         <button class="get-started"  id="view" style="margin-bottom:10px ">View</button>
+                        <button class="get-started"  id="delete" style="margin-bottom:10px ">Delete Ad</button>
                             </div>     
     
                             <div class="trons tron1" id="ad9">
@@ -146,8 +143,10 @@
                                 <div>
                                     <span> <h3 class="state">state </h3> <h2 class="manufacturer">Manufacturer </h2><h3 class="model">Model</h3> </span> 
                                     <h3 class="price">Price</h3>
+                                    <h3 class="status">sold/Not sold</h3>
                                 </div>
                                 <button class="get-started"  id="view" style="margin-bottom:10px ">View</button>
+                                <button class="get-started"  id="delete" style="margin-bottom:10px ">Delete Ad</button>
                                     </div>
                                     
                                                      
